@@ -1,0 +1,22 @@
+body{
+    background-image: url("aniversário.jpg");
+    background-repeat: no-repeat;
+    background-size: 1890px 1670px;
+    background-position: center;
+    color: rgb(255, 166, 0);
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+ }
+
+ header{
+    color: rgb(255, 0, 64);
+    margin-top: 20px;
+    text-align: center;
+
+ }
+
+ .timer{
+    display: grid;
+    grid-auto-flow: column;
+ }
