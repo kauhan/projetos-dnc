@@ -3,7 +3,8 @@ const hora = document.getElementById('hora')
 const minuto = document.getElementById('minuto')
 const segundo = document.getElementById('segundo')
 
-const lancamento = "23 jan 2024"
+
+const lancamento = "04 jan 2023"
 
 function countDown(){
    const dataLanc = new Date(lancamento)
@@ -15,6 +16,7 @@ function countDown(){
    const finalHoras = Math.floor(segTotal / 60 / 60 ) % 24;
    const finalMinutos = Math.floor(segTotal  / 60 ) % 60;
    const finalSegundos = Math.floor(segTotal) % 60;
+   
 
    dia.innerHTML =  finalDias
    hora.innerHTML = finalHoras
