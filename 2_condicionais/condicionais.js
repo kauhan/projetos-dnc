@@ -6,3 +6,4 @@ var dinheiro = 40
  } else{
     console.log('Não possuo dinheiro o suficiente para comprar o presente') 
  }
+ 

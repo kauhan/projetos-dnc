@@ -8,3 +8,4 @@ function presente(dinheiro,valor) {
 
 let x = presente(100,90)
 console.log(x)
+
